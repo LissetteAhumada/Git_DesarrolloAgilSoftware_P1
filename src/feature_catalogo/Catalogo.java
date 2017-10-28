@@ -64,5 +64,12 @@ package feature_catalogo;
 			
 			Catalogo Producto1 = new Catalogo (00112233, 1, 20);
 			Producto1.desplegarDatos(" Pera");
+			Catalogo Producto2 = new Catalogo (44556612, 12, 50);
+			Producto2.desplegarDatos(" Manzanas Rojas");
+			Catalogo Producto3 = new Catalogo (00112233, 3, 30);
+			Producto3.desplegarDatos(" Fresa");
+			Catalogo Producto4 = new Catalogo (44556612, 30, 50);
+			Producto4.desplegarDatos(" Platano");
+			
 		}
 }
