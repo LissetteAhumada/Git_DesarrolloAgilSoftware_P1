@@ -46,7 +46,7 @@ package principal;
 		        
 		        public void desplegarDatos (String Quien){
 		            System.out.println("Datos de:"+Quien);
-		            System.out.println( "Ingresar fecha de nacimiento:" );
+		            System.out.println( "Ingresar fecha:" );
 		            System.out.println("Dia: "+dia);
 		            System.out.println("Mes: "+mes);
 		            System.out.println("Año: "+anio);
@@ -55,9 +55,11 @@ package principal;
 		        }  
 		
 		public static void main(String[] args) {
-			System.out.println("Git Version 2");
+			System.out.println("Git Version 3");
 			
 			Git MyBirthDay = new Git ((byte)17, (byte)02, 1991);
 			MyBirthDay.desplegarDatos(" Mi fecha de nacimiento");
+			Git MyGraduation = new Git ((byte)25, (byte)06, 2018);
+			MyGraduation.desplegarDatos(" Mi graduación de Master");
 		}
 	}
