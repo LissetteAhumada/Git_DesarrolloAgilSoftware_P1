@@ -69,5 +69,7 @@ package feature_reservas;
 			Reserva2.desplegarDatos(" Alejandra Ahumada Castellanos");
 			Reservas Reserva3 = new Reservas ((byte)10, (byte)01, 2018);
 			Reserva3.desplegarDatos(" Lissette Ahumada Castellanos");
+			Reservas Reserva4 = new Reservas ((byte)18, (byte)12, 2017);
+			Reserva4.desplegarDatos(" Alejandra Ahumada Castellanos");
 		}		
 	}
