@@ -59,7 +59,5 @@ public class Anulaciones extends javax.swing.JFrame{
 			
 			Anulaciones Anulación1 = new Anulaciones ((byte)17, (byte)02, 1991);
 			Anulación1.desplegarDatos(" Boda Pablo y Rosa");
-			Anulaciones Anulación2 = new Anulaciones ((byte)25, (byte)06, 2018);
-			Anulación2.desplegarDatos(" Graduación de Primaria");
 		}
 }
