@@ -55,9 +55,9 @@ public class Anulaciones extends javax.swing.JFrame{
 		        }  
 		
 		public static void main(String[] args) {
-			System.out.println("Git Version 1");
+			System.out.println("Git Version 2");
 			
-			Anulaciones Anulación1 = new Anulaciones ((byte)17, (byte)02, 1991);
+			Anulaciones Anulación1 = new Anulaciones ((byte)30, (byte)02, 2018);
 			Anulación1.desplegarDatos(" Boda Pablo y Rosa");
 		}
 }
