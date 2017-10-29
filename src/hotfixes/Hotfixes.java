@@ -59,7 +59,7 @@ public class Hotfixes {
 		System.out.println("Git Hotfixes 1");
 		
 		Git MyGraduation = new Git ((byte)25, (byte)06, 2018);
-		MyGraduation.desplegarDatos(" Mi graduación de Master");
+		MyGraduation.desplegarDatos(" Mi graduación de Master ");
 		
 	}
 }
