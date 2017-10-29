@@ -59,7 +59,5 @@ package principal;
 			
 			Git MyBirthDay = new Git ((byte)17, (byte)02, 1991);
 			MyBirthDay.desplegarDatos(" Mi fecha de nacimiento");
-			Git MyGraduation = new Git ((byte)25, (byte)06, 2018);
-			MyGraduation.desplegarDatos(" Mi graduación de Master");
 		}
 	}
