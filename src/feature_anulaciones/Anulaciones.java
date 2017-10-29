@@ -1,6 +1,6 @@
-package principal;
+package feature_anulaciones;
 
-	public class Git extends javax.swing.JFrame{
+public class Anulaciones extends javax.swing.JFrame{
 		
 		//ATIBUTOS
 			private byte dia;
@@ -8,7 +8,7 @@ package principal;
 			private int anio;
 		        
 		        //OVERLOADING DE CONSTRUCTORES
-		        public Git (byte dia, byte mes, int anio){
+		        public Anulaciones (byte dia, byte mes, int anio){
 		        this.dia = dia;
 		        this.mes = mes;
 		        this.anio = anio;
@@ -55,11 +55,9 @@ package principal;
 		        }  
 		
 		public static void main(String[] args) {
-			System.out.println("Git Version 3");
+			System.out.println("Git Version 2");
 			
-			Git MyBirthDay = new Git ((byte)17, (byte)02, 1991);
-			MyBirthDay.desplegarDatos(" Mi fecha de nacimiento");
-			Git MyGraduation = new Git ((byte)25, (byte)06, 2018);
-			MyGraduation.desplegarDatos(" Mi graduación de Master");
+			Anulaciones Anulación1 = new Anulaciones ((byte)30, (byte)02, 2018);
+			Anulación1.desplegarDatos(" Boda Pablo y Rosa");
 		}
-	}
+}
