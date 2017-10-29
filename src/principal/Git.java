@@ -55,7 +55,7 @@ package principal;
 		        }  
 		
 		public static void main(String[] args) {
-			System.out.println("Git Version 3");
+			System.out.println("Git Version 2.0.1");
 			
 			Git MyGraduation = new Git ((byte)25, (byte)06, 2018);
 			MyGraduation.desplegarDatos(" Mi graduación de Master ");
